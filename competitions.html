@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Competitions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body bgcolor="cream">
+  <header>
+    <h1>College Competitions</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="competitions.html">Competitions</a></li>
+        <li><a href="scholarships.html">Scholarships</a></li>
+        <li><a href="schedule.html">To-Do Schedule</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Filter Competitions</h2>
+    <div class="filter-container">
+      <label for="type">Type:</label>
+      <select id="type" name="type">
+        <option value="all">All</option>
+        <option value="tech">Tech</option>
+        <option value="cultural">Cultural</option>
+      </select>
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date">
+    </div>
+
+    <div class="event-list">
+      <h3>Upcoming Competitions</h3>
+      <ul>
+        <li>
+          <strong>Hackathon 2024</strong> - Tech (March 20, 2024)
+        </li>
+        <li>
+          <strong>Art Competition</strong> - Cultural (April 10, 2024)
+        </li>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>
